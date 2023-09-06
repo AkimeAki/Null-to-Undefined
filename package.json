@@ -1,0 +1,24 @@
+{
+	"name": "null-to-undefined",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "./modules/null-to-undefined.js",
+	"types": "./modules/null-to-undefined.d.ts",
+	"files": [
+		"modules"
+	],
+	"scripts": {
+		"build": "make build",
+		"lint": "eslint './src/**/*.{ts,tsx,astro}'",
+		"lint:fix": "npm run lint -- --fix; prettier --write './**/*'"
+	},
+	"devDependencies": {
+		"@typescript-eslint/parser": "^5.61.0",
+		"eslint": "^8.44.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-config-standard-with-typescript": "^36.0.0",
+		"prettier": "^2.8.8",
+		"typescript": "^5.2.2"
+	}
+}
