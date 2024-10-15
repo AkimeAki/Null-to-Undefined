@@ -1,10 +1,11 @@
 /node_modules/
-package-lock.json
+/package-lock.json
 /.pnpm-store/
-/src/assets/
 /**/Dockerfile
 /**/Makefile
 /**/.editorconfig
 /**/.gitignore
 /**/.prettierignore
 /**/modules/
+/.node-version
+/.npmrc
