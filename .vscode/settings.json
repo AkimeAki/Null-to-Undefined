@@ -1,0 +1,21 @@
+{
+	"npm.packageManager": "npm",
+	"files.readonlyInclude": {
+		"node_modules/**/*": true,
+		"modules/**/*": true,
+		".git/**/*": true
+	},
+	"biome.enabled": true,
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "biomejs.biome"
+	}
+}

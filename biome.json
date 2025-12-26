@@ -1,0 +1,33 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": false
+	},
+	"files": {
+		"ignoreUnknown": false,
+		"includes": [
+			"**",
+			"!**/modules/**/*",
+			"!**/node_modules/**/*",
+			"!**/.git/**/*"
+		]
+	},
+	"formatter": {
+		"enabled": true,
+		"useEditorconfig": true
+	},
+	"assist": { "actions": { "source": { "organizeImports": "off" } } },
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"suspicious": {
+				"noExplicitAny": "off"
+			},
+			"complexity": {
+				"noBannedTypes": "off"
+			}
+		}
+	}
+}
